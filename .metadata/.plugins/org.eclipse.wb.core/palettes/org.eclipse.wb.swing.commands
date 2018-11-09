@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addCategory
+		id="JTimeChooser_0.1.0_1540904257364"
+		name="JTimeChooser_0.1.0"
+		description="Container with import elements from /home/harshith/javaproject/OopsProject/JTimeChooser_0.1.0.jar"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo_1540904257364"
+		name="JTimeChooserDemo"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		category="JTimeChooser_0.1.0_1540904257364"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1_1540904257364"
+		name="1"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		category="JTimeChooser_0.1.0_1540904257364"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.JTimeChooser_1540904257364"
+		name="JTimeChooser"
+		description="Custom component: lu.tudor.santec.jtimechooser.JTimeChooser"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.JTimeChooser"
+		category="JTimeChooser_0.1.0_1540904257364"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedEvent_1540904257364"
+		name="TimeChangedEvent"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		category="JTimeChooser_0.1.0_1540904257364"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedListener_1540904257364"
+		name="TimeChangedListener"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedListener"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedListener"
+		category="JTimeChooser_0.1.0_1540904257364"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserHandler_1540904257364"
+		name="TimeChooserHandler"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		category="JTimeChooser_0.1.0_1540904257364"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserModel_1540904257364"
+		name="TimeChooserModel"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserModel"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserModel"
+		category="JTimeChooser_0.1.0_1540904257364"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeUnit_1540904257364"
+		name="TimeUnit"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeUnit"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeUnit"
+		category="JTimeChooser_0.1.0_1540904257364"/>
+	<removeCategory
+		id="JTimeChooser_0.1.0_1540904257364"/>
+	<addCategory
+		id="JTimeChooser_0.1.0_1540904404341"
+		name="JTimeChooser_0.1.0"
+		description="Container with import elements from /home/harshith/javaproject/Parking/JTimeChooser_0.1.0.jar"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo_1540904404341"
+		name="JTimeChooserDemo"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		category="JTimeChooser_0.1.0_1540904404341"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1_1540904404341"
+		name="1"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		category="JTimeChooser_0.1.0_1540904404341"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.JTimeChooser_1540904404341"
+		name="JTimeChooser"
+		description="Custom component: lu.tudor.santec.jtimechooser.JTimeChooser"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.JTimeChooser"
+		category="JTimeChooser_0.1.0_1540904404341"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedEvent_1540904404341"
+		name="TimeChangedEvent"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		category="JTimeChooser_0.1.0_1540904404341"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedListener_1540904404341"
+		name="TimeChangedListener"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedListener"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedListener"
+		category="JTimeChooser_0.1.0_1540904404341"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserHandler_1540904404341"
+		name="TimeChooserHandler"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		category="JTimeChooser_0.1.0_1540904404341"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserModel_1540904404341"
+		name="TimeChooserModel"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserModel"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserModel"
+		category="JTimeChooser_0.1.0_1540904404341"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeUnit_1540904404341"
+		name="TimeUnit"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeUnit"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeUnit"
+		category="JTimeChooser_0.1.0_1540904404341"/>
+	<removeCategory
+		id="JTimeChooser_0.1.0_1540904404341"/>
+	<addCategory
+		id="JTimeChooser_0.1.0_1540973854953"
+		name="JTimeChooser_0.1.0"
+		description="Container with import elements from /home/harshith/javaproject/Parking/JTimeChooser_0.1.0.jar"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo_1540973854954"
+		name="JTimeChooserDemo"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		category="JTimeChooser_0.1.0_1540973854953"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1_1540973854954"
+		name="1"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		category="JTimeChooser_0.1.0_1540973854953"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.JTimeChooser_1540973854954"
+		name="JTimeChooser"
+		description="Custom component: lu.tudor.santec.jtimechooser.JTimeChooser"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.JTimeChooser"
+		category="JTimeChooser_0.1.0_1540973854953"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedEvent_1540973854954"
+		name="TimeChangedEvent"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		category="JTimeChooser_0.1.0_1540973854953"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedListener_1540973854954"
+		name="TimeChangedListener"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedListener"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedListener"
+		category="JTimeChooser_0.1.0_1540973854953"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserHandler_1540973854954"
+		name="TimeChooserHandler"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		category="JTimeChooser_0.1.0_1540973854953"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserModel_1540973854954"
+		name="TimeChooserModel"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserModel"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserModel"
+		category="JTimeChooser_0.1.0_1540973854953"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeUnit_1540973854954"
+		name="TimeUnit"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeUnit"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeUnit"
+		category="JTimeChooser_0.1.0_1540973854953"/>
+	<addComponent
+		id="com.jgoodies.common.base.Objects_1540974007161"
+		name="Objects"
+		description="Custom component: com.jgoodies.common.base.Objects"
+		visible="true"
+		class="com.jgoodies.common.base.Objects"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.base.Preconditions_1540974007161"
+		name="Preconditions"
+		description="Custom component: com.jgoodies.common.base.Preconditions"
+		visible="true"
+		class="com.jgoodies.common.base.Preconditions"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.base.Strings_1540974007161"
+		name="Strings"
+		description="Custom component: com.jgoodies.common.base.Strings"
+		visible="true"
+		class="com.jgoodies.common.base.Strings"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.base.SystemUtils_1540974007161"
+		name="SystemUtils"
+		description="Custom component: com.jgoodies.common.base.SystemUtils"
+		visible="true"
+		class="com.jgoodies.common.base.SystemUtils"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.bean.Bean_1540974007161"
+		name="Bean"
+		description="Custom component: com.jgoodies.common.bean.Bean"
+		visible="true"
+		class="com.jgoodies.common.bean.Bean"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.bean.ObservableBean_1540974007161"
+		name="ObservableBean"
+		description="Custom component: com.jgoodies.common.bean.ObservableBean"
+		visible="true"
+		class="com.jgoodies.common.bean.ObservableBean"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.bean.ObservableBean2_1540974007161"
+		name="ObservableBean2"
+		description="Custom component: com.jgoodies.common.bean.ObservableBean2"
+		visible="true"
+		class="com.jgoodies.common.bean.ObservableBean2"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.collect.ArrayListModel_1540974007161"
+		name="ArrayListModel"
+		description="Custom component: com.jgoodies.common.collect.ArrayListModel"
+		visible="true"
+		class="com.jgoodies.common.collect.ArrayListModel"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.collect.LinkedListModel_1540974007161"
+		name="LinkedListModel"
+		description="Custom component: com.jgoodies.common.collect.LinkedListModel"
+		visible="true"
+		class="com.jgoodies.common.collect.LinkedListModel"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.collect.LinkedListModel$ReportingListIterator_1540974007161"
+		name="ReportingListIterator"
+		description="Custom component: com.jgoodies.common.collect.LinkedListModel$ReportingListIterator"
+		visible="true"
+		class="com.jgoodies.common.collect.LinkedListModel$ReportingListIterator"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.collect.ObservableList_1540974007161"
+		name="ObservableList"
+		description="Custom component: com.jgoodies.common.collect.ObservableList"
+		visible="true"
+		class="com.jgoodies.common.collect.ObservableList"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.collect.ObservableList2_1540974007161"
+		name="ObservableList2"
+		description="Custom component: com.jgoodies.common.collect.ObservableList2"
+		visible="true"
+		class="com.jgoodies.common.collect.ObservableList2"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.display.Displayable_1540974007161"
+		name="Displayable"
+		description="Custom component: com.jgoodies.common.display.Displayable"
+		visible="true"
+		class="com.jgoodies.common.display.Displayable"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.display.ListDisplayable_1540974007161"
+		name="ListDisplayable"
+		description="Custom component: com.jgoodies.common.display.ListDisplayable"
+		visible="true"
+		class="com.jgoodies.common.display.ListDisplayable"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.display.TableDisplayable_1540974007161"
+		name="TableDisplayable"
+		description="Custom component: com.jgoodies.common.display.TableDisplayable"
+		visible="true"
+		class="com.jgoodies.common.display.TableDisplayable"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.format.AbstractWrappedDateFormat_1540974007161"
+		name="AbstractWrappedDateFormat"
+		description="Custom component: com.jgoodies.common.format.AbstractWrappedDateFormat"
+		visible="true"
+		class="com.jgoodies.common.format.AbstractWrappedDateFormat"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.format.DisplayableFormat_1540974007161"
+		name="DisplayableFormat"
+		description="Custom component: com.jgoodies.common.format.DisplayableFormat"
+		visible="true"
+		class="com.jgoodies.common.format.DisplayableFormat"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.format.EmptyDateFormat_1540974007161"
+		name="EmptyDateFormat"
+		description="Custom component: com.jgoodies.common.format.EmptyDateFormat"
+		visible="true"
+		class="com.jgoodies.common.format.EmptyDateFormat"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.format.EmptyFormat_1540974007161"
+		name="EmptyFormat"
+		description="Custom component: com.jgoodies.common.format.EmptyFormat"
+		visible="true"
+		class="com.jgoodies.common.format.EmptyFormat"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.format.EmptyNumberFormat_1540974007161"
+		name="EmptyNumberFormat"
+		description="Custom component: com.jgoodies.common.format.EmptyNumberFormat"
+		visible="true"
+		class="com.jgoodies.common.format.EmptyNumberFormat"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.internal.IActionBean_1540974007161"
+		name="IActionBean"
+		description="Custom component: com.jgoodies.common.internal.IActionBean"
+		visible="true"
+		class="com.jgoodies.common.internal.IActionBean"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.internal.IActionObject_1540974007161"
+		name="IActionObject"
+		description="Custom component: com.jgoodies.common.internal.IActionObject"
+		visible="true"
+		class="com.jgoodies.common.internal.IActionObject"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.internal.IconResourceAccessor_1540974007161"
+		name="IconResourceAccessor"
+		description="Custom component: com.jgoodies.common.internal.IconResourceAccessor"
+		visible="true"
+		class="com.jgoodies.common.internal.IconResourceAccessor"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.internal.Messages_1540974007161"
+		name="Messages"
+		description="Custom component: com.jgoodies.common.internal.Messages"
+		visible="true"
+		class="com.jgoodies.common.internal.Messages"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.internal.RenderingUtils_1540974007161"
+		name="RenderingUtils"
+		description="Custom component: com.jgoodies.common.internal.RenderingUtils"
+		visible="true"
+		class="com.jgoodies.common.internal.RenderingUtils"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.internal.ResourceBundleAccessor_1540974007161"
+		name="ResourceBundleAccessor"
+		description="Custom component: com.jgoodies.common.internal.ResourceBundleAccessor"
+		visible="true"
+		class="com.jgoodies.common.internal.ResourceBundleAccessor"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.internal.StringAndIconResourceAccessor_1540974007161"
+		name="StringAndIconResourceAccessor"
+		description="Custom component: com.jgoodies.common.internal.StringAndIconResourceAccessor"
+		visible="true"
+		class="com.jgoodies.common.internal.StringAndIconResourceAccessor"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.internal.StringResourceAccess_1540974007161"
+		name="StringResourceAccess"
+		description="Custom component: com.jgoodies.common.internal.StringResourceAccess"
+		visible="true"
+		class="com.jgoodies.common.internal.StringResourceAccess"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.internal.StringResourceAccessor_1540974007161"
+		name="StringResourceAccessor"
+		description="Custom component: com.jgoodies.common.internal.StringResourceAccessor"
+		visible="true"
+		class="com.jgoodies.common.internal.StringResourceAccessor"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.swing.MnemonicUtils_1540974007161"
+		name="MnemonicUtils"
+		description="Custom component: com.jgoodies.common.swing.MnemonicUtils"
+		visible="true"
+		class="com.jgoodies.common.swing.MnemonicUtils"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.swing.MnemonicUtils$1_1540974007161"
+		name="1"
+		description="Custom component: com.jgoodies.common.swing.MnemonicUtils$1"
+		visible="true"
+		class="com.jgoodies.common.swing.MnemonicUtils$1"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.common.swing.MnemonicUtils$MnemonicText_1540974007161"
+		name="MnemonicText"
+		description="Custom component: com.jgoodies.common.swing.MnemonicUtils$MnemonicText"
+		visible="true"
+		class="com.jgoodies.common.swing.MnemonicUtils$MnemonicText"
+		category="org.eclipse.wb.swing.components.awt"/>
+	<addComponent
+		id="com.jgoodies.forms.builder.AbstractBuilder_1540974082307"
+		name="AbstractBuilder"
+		description="Custom component: com.jgoodies.forms.builder.AbstractBuilder"
+		visible="true"
+		class="com.jgoodies.forms.builder.AbstractBuilder"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.builder.AbstractButtonPanelBuilder_1540974082307"
+		name="AbstractButtonPanelBuilder"
+		description="Custom component: com.jgoodies.forms.builder.AbstractButtonPanelBuilder"
+		visible="true"
+		class="com.jgoodies.forms.builder.AbstractButtonPanelBuilder"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.builder.AbstractFormBuilder_1540974082307"
+		name="AbstractFormBuilder"
+		description="Custom component: com.jgoodies.forms.builder.AbstractFormBuilder"
+		visible="true"
+		class="com.jgoodies.forms.builder.AbstractFormBuilder"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.builder.ButtonBarBuilder_1540974082307"
+		name="ButtonBarBuilder"
+		description="Custom component: com.jgoodies.forms.builder.ButtonBarBuilder"
+		visible="true"
+		class="com.jgoodies.forms.builder.ButtonBarBuilder"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.builder.ButtonStackBuilder_1540974082307"
+		name="ButtonStackBuilder"
+		description="Custom component: com.jgoodies.forms.builder.ButtonStackBuilder"
+		visible="true"
+		class="com.jgoodies.forms.builder.ButtonStackBuilder"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.builder.DefaultFormBuilder_1540974082307"
+		name="DefaultFormBuilder"
+		description="Custom component: com.jgoodies.forms.builder.DefaultFormBuilder"
+		visible="true"
+		class="com.jgoodies.forms.builder.DefaultFormBuilder"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.builder.I15dPanelBuilder_1540974082308"
+		name="I15dPanelBuilder"
+		description="Custom component: com.jgoodies.forms.builder.I15dPanelBuilder"
+		visible="true"
+		class="com.jgoodies.forms.builder.I15dPanelBuilder"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.builder.ListViewBuilder_1540974082308"
+		name="ListViewBuilder"
+		description="Custom component: com.jgoodies.forms.builder.ListViewBuilder"
+		visible="true"
+		class="com.jgoodies.forms.builder.ListViewBuilder"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.builder.PanelBuilder_1540974082308"
+		name="PanelBuilder"
+		description="Custom component: com.jgoodies.forms.builder.PanelBuilder"
+		visible="true"
+		class="com.jgoodies.forms.builder.PanelBuilder"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.debug.FormDebugPanel_1540974082308"
+		name="FormDebugPanel"
+		description="Custom component: com.jgoodies.forms.debug.FormDebugPanel"
+		visible="true"
+		class="com.jgoodies.forms.debug.FormDebugPanel"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.debug.FormDebugUtils_1540974082308"
+		name="FormDebugUtils"
+		description="Custom component: com.jgoodies.forms.debug.FormDebugUtils"
+		visible="true"
+		class="com.jgoodies.forms.debug.FormDebugUtils"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.Borders_1540974082308"
+		name="Borders"
+		description="Custom component: com.jgoodies.forms.factories.Borders"
+		visible="true"
+		class="com.jgoodies.forms.factories.Borders"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.Borders$1_1540974082308"
+		name="1"
+		description="Custom component: com.jgoodies.forms.factories.Borders$1"
+		visible="true"
+		class="com.jgoodies.forms.factories.Borders$1"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.Borders$EmptyBorder_1540974082308"
+		name="EmptyBorder"
+		description="Custom component: com.jgoodies.forms.factories.Borders$EmptyBorder"
+		visible="true"
+		class="com.jgoodies.forms.factories.Borders$EmptyBorder"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.CC_1540974082308"
+		name="CC"
+		description="Custom component: com.jgoodies.forms.factories.CC"
+		visible="true"
+		class="com.jgoodies.forms.factories.CC"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.ComponentFactory_1540974082308"
+		name="ComponentFactory"
+		description="Custom component: com.jgoodies.forms.factories.ComponentFactory"
+		visible="true"
+		class="com.jgoodies.forms.factories.ComponentFactory"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.DefaultComponentFactory_1540974082308"
+		name="DefaultComponentFactory"
+		description="Custom component: com.jgoodies.forms.factories.DefaultComponentFactory"
+		visible="true"
+		class="com.jgoodies.forms.factories.DefaultComponentFactory"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.DefaultComponentFactory$1_1540974082308"
+		name="1"
+		description="Custom component: com.jgoodies.forms.factories.DefaultComponentFactory$1"
+		visible="true"
+		class="com.jgoodies.forms.factories.DefaultComponentFactory$1"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.DefaultComponentFactory$FormsLabel_1540974082308"
+		name="FormsLabel"
+		description="Custom component: com.jgoodies.forms.factories.DefaultComponentFactory$FormsLabel"
+		visible="true"
+		class="com.jgoodies.forms.factories.DefaultComponentFactory$FormsLabel"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.DefaultComponentFactory$FormsLabel$AccessibleFormsLabel_1540974082308"
+		name="AccessibleFormsLabel"
+		description="Custom component: com.jgoodies.forms.factories.DefaultComponentFactory$FormsLabel$AccessibleFormsLabel"
+		visible="true"
+		class="com.jgoodies.forms.factories.DefaultComponentFactory$FormsLabel$AccessibleFormsLabel"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.DefaultComponentFactory$ReadOnlyLabel_1540974082308"
+		name="ReadOnlyLabel"
+		description="Custom component: com.jgoodies.forms.factories.DefaultComponentFactory$ReadOnlyLabel"
+		visible="true"
+		class="com.jgoodies.forms.factories.DefaultComponentFactory$ReadOnlyLabel"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.DefaultComponentFactory$TitledSeparatorLayout_1540974082308"
+		name="TitledSeparatorLayout"
+		description="Custom component: com.jgoodies.forms.factories.DefaultComponentFactory$TitledSeparatorLayout"
+		visible="true"
+		class="com.jgoodies.forms.factories.DefaultComponentFactory$TitledSeparatorLayout"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.DefaultComponentFactory$TitleLabel_1540974082308"
+		name="TitleLabel"
+		description="Custom component: com.jgoodies.forms.factories.DefaultComponentFactory$TitleLabel"
+		visible="true"
+		class="com.jgoodies.forms.factories.DefaultComponentFactory$TitleLabel"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.factories.Forms_1540974082308"
+		name="Forms"
+		description="Custom component: com.jgoodies.forms.factories.Forms"
+		visible="true"
+		class="com.jgoodies.forms.factories.Forms"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.FormsSetup_1540974082308"
+		name="FormsSetup"
+		description="Custom component: com.jgoodies.forms.FormsSetup"
+		visible="true"
+		class="com.jgoodies.forms.FormsSetup"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.internal.FocusTraversalUtilsAccessor_1540974082308"
+		name="FocusTraversalUtilsAccessor"
+		description="Custom component: com.jgoodies.forms.internal.FocusTraversalUtilsAccessor"
+		visible="true"
+		class="com.jgoodies.forms.internal.FocusTraversalUtilsAccessor"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.BoundedSize_1540974082308"
+		name="BoundedSize"
+		description="Custom component: com.jgoodies.forms.layout.BoundedSize"
+		visible="true"
+		class="com.jgoodies.forms.layout.BoundedSize"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.CellConstraints_1540974082308"
+		name="CellConstraints"
+		description="Custom component: com.jgoodies.forms.layout.CellConstraints"
+		visible="true"
+		class="com.jgoodies.forms.layout.CellConstraints"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.CellConstraints$1_1540974082308"
+		name="1"
+		description="Custom component: com.jgoodies.forms.layout.CellConstraints$1"
+		visible="true"
+		class="com.jgoodies.forms.layout.CellConstraints$1"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.CellConstraints$Alignment_1540974082308"
+		name="Alignment"
+		description="Custom component: com.jgoodies.forms.layout.CellConstraints$Alignment"
+		visible="true"
+		class="com.jgoodies.forms.layout.CellConstraints$Alignment"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.ColumnSpec_1540974082308"
+		name="ColumnSpec"
+		description="Custom component: com.jgoodies.forms.layout.ColumnSpec"
+		visible="true"
+		class="com.jgoodies.forms.layout.ColumnSpec"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.ConstantSize_1540974082308"
+		name="ConstantSize"
+		description="Custom component: com.jgoodies.forms.layout.ConstantSize"
+		visible="true"
+		class="com.jgoodies.forms.layout.ConstantSize"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.ConstantSize$1_1540974082308"
+		name="1"
+		description="Custom component: com.jgoodies.forms.layout.ConstantSize$1"
+		visible="true"
+		class="com.jgoodies.forms.layout.ConstantSize$1"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.ConstantSize$Unit_1540974082308"
+		name="Unit"
+		description="Custom component: com.jgoodies.forms.layout.ConstantSize$Unit"
+		visible="true"
+		class="com.jgoodies.forms.layout.ConstantSize$Unit"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormLayout_1540974082308"
+		name="FormLayout"
+		description="Custom component: com.jgoodies.forms.layout.FormLayout"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormLayout"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormLayout$1_1540974082308"
+		name="1"
+		description="Custom component: com.jgoodies.forms.layout.FormLayout$1"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormLayout$1"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormLayout$CachingMeasure_1540974082308"
+		name="CachingMeasure"
+		description="Custom component: com.jgoodies.forms.layout.FormLayout$CachingMeasure"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormLayout$CachingMeasure"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormLayout$ComponentSizeCache_1540974082308"
+		name="ComponentSizeCache"
+		description="Custom component: com.jgoodies.forms.layout.FormLayout$ComponentSizeCache"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormLayout$ComponentSizeCache"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormLayout$LayoutInfo_1540974082308"
+		name="LayoutInfo"
+		description="Custom component: com.jgoodies.forms.layout.FormLayout$LayoutInfo"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormLayout$LayoutInfo"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormLayout$Measure_1540974082308"
+		name="Measure"
+		description="Custom component: com.jgoodies.forms.layout.FormLayout$Measure"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormLayout$Measure"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormLayout$MinimumHeightMeasure_1540974082308"
+		name="MinimumHeightMeasure"
+		description="Custom component: com.jgoodies.forms.layout.FormLayout$MinimumHeightMeasure"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormLayout$MinimumHeightMeasure"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormLayout$MinimumWidthMeasure_1540974082308"
+		name="MinimumWidthMeasure"
+		description="Custom component: com.jgoodies.forms.layout.FormLayout$MinimumWidthMeasure"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormLayout$MinimumWidthMeasure"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormLayout$PreferredHeightMeasure_1540974082308"
+		name="PreferredHeightMeasure"
+		description="Custom component: com.jgoodies.forms.layout.FormLayout$PreferredHeightMeasure"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormLayout$PreferredHeightMeasure"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormLayout$PreferredWidthMeasure_1540974082308"
+		name="PreferredWidthMeasure"
+		description="Custom component: com.jgoodies.forms.layout.FormLayout$PreferredWidthMeasure"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormLayout$PreferredWidthMeasure"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormSpec_1540974082308"
+		name="FormSpec"
+		description="Custom component: com.jgoodies.forms.layout.FormSpec"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormSpec"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormSpec$1_1540974082308"
+		name="1"
+		description="Custom component: com.jgoodies.forms.layout.FormSpec$1"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormSpec$1"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormSpec$DefaultAlignment_1540974082308"
+		name="DefaultAlignment"
+		description="Custom component: com.jgoodies.forms.layout.FormSpec$DefaultAlignment"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormSpec$DefaultAlignment"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormSpecParser_1540974082308"
+		name="FormSpecParser"
+		description="Custom component: com.jgoodies.forms.layout.FormSpecParser"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormSpecParser"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormSpecParser$FormLayoutParseException_1540974082308"
+		name="FormLayoutParseException"
+		description="Custom component: com.jgoodies.forms.layout.FormSpecParser$FormLayoutParseException"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormSpecParser$FormLayoutParseException"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormSpecParser$Multiplier_1540974082308"
+		name="Multiplier"
+		description="Custom component: com.jgoodies.forms.layout.FormSpecParser$Multiplier"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormSpecParser$Multiplier"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.FormSpecs_1540974082308"
+		name="FormSpecs"
+		description="Custom component: com.jgoodies.forms.layout.FormSpecs"
+		visible="true"
+		class="com.jgoodies.forms.layout.FormSpecs"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.LayoutMap_1540974082308"
+		name="LayoutMap"
+		description="Custom component: com.jgoodies.forms.layout.LayoutMap"
+		visible="true"
+		class="com.jgoodies.forms.layout.LayoutMap"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.PrototypeSize_1540974082308"
+		name="PrototypeSize"
+		description="Custom component: com.jgoodies.forms.layout.PrototypeSize"
+		visible="true"
+		class="com.jgoodies.forms.layout.PrototypeSize"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.RowSpec_1540974082308"
+		name="RowSpec"
+		description="Custom component: com.jgoodies.forms.layout.RowSpec"
+		visible="true"
+		class="com.jgoodies.forms.layout.RowSpec"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.Size_1540974082308"
+		name="Size"
+		description="Custom component: com.jgoodies.forms.layout.Size"
+		visible="true"
+		class="com.jgoodies.forms.layout.Size"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.Sizes_1540974082308"
+		name="Sizes"
+		description="Custom component: com.jgoodies.forms.layout.Sizes"
+		visible="true"
+		class="com.jgoodies.forms.layout.Sizes"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.Sizes$1_1540974082308"
+		name="1"
+		description="Custom component: com.jgoodies.forms.layout.Sizes$1"
+		visible="true"
+		class="com.jgoodies.forms.layout.Sizes$1"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.layout.Sizes$ComponentSize_1540974082308"
+		name="ComponentSize"
+		description="Custom component: com.jgoodies.forms.layout.Sizes$ComponentSize"
+		visible="true"
+		class="com.jgoodies.forms.layout.Sizes$ComponentSize"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.util.AbstractUnitConverter_1540974082308"
+		name="AbstractUnitConverter"
+		description="Custom component: com.jgoodies.forms.util.AbstractUnitConverter"
+		visible="true"
+		class="com.jgoodies.forms.util.AbstractUnitConverter"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.util.DefaultUnitConverter_1540974082308"
+		name="DefaultUnitConverter"
+		description="Custom component: com.jgoodies.forms.util.DefaultUnitConverter"
+		visible="true"
+		class="com.jgoodies.forms.util.DefaultUnitConverter"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.util.DefaultUnitConverter$DialogBaseUnits_1540974082308"
+		name="DialogBaseUnits"
+		description="Custom component: com.jgoodies.forms.util.DefaultUnitConverter$DialogBaseUnits"
+		visible="true"
+		class="com.jgoodies.forms.util.DefaultUnitConverter$DialogBaseUnits"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.util.FormUtils_1540974082308"
+		name="FormUtils"
+		description="Custom component: com.jgoodies.forms.util.FormUtils"
+		visible="true"
+		class="com.jgoodies.forms.util.FormUtils"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.util.LayoutStyle_1540974082308"
+		name="LayoutStyle"
+		description="Custom component: com.jgoodies.forms.util.LayoutStyle"
+		visible="true"
+		class="com.jgoodies.forms.util.LayoutStyle"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.util.MacLayoutStyle_1540974082308"
+		name="MacLayoutStyle"
+		description="Custom component: com.jgoodies.forms.util.MacLayoutStyle"
+		visible="true"
+		class="com.jgoodies.forms.util.MacLayoutStyle"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.util.UnitConverter_1540974082308"
+		name="UnitConverter"
+		description="Custom component: com.jgoodies.forms.util.UnitConverter"
+		visible="true"
+		class="com.jgoodies.forms.util.UnitConverter"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="com.jgoodies.forms.util.WindowsLayoutStyle_1540974082308"
+		name="WindowsLayoutStyle"
+		description="Custom component: com.jgoodies.forms.util.WindowsLayoutStyle"
+		visible="true"
+		class="com.jgoodies.forms.util.WindowsLayoutStyle"
+		category="org.eclipse.wb.swing.actions"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo_1540974312978"
+		name="JTimeChooserDemo"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		category="org.eclipse.wb.swing.JGoodies"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1_1540974312978"
+		name="1"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		category="org.eclipse.wb.swing.JGoodies"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.JTimeChooser_1540974312978"
+		name="JTimeChooser"
+		description="Custom component: lu.tudor.santec.jtimechooser.JTimeChooser"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.JTimeChooser"
+		category="org.eclipse.wb.swing.JGoodies"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedEvent_1540974312978"
+		name="TimeChangedEvent"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		category="org.eclipse.wb.swing.JGoodies"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedListener_1540974312978"
+		name="TimeChangedListener"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedListener"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedListener"
+		category="org.eclipse.wb.swing.JGoodies"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserHandler_1540974312978"
+		name="TimeChooserHandler"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		category="org.eclipse.wb.swing.JGoodies"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserModel_1540974312978"
+		name="TimeChooserModel"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserModel"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserModel"
+		category="org.eclipse.wb.swing.JGoodies"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeUnit_1540974312978"
+		name="TimeUnit"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeUnit"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeUnit"
+		category="org.eclipse.wb.swing.JGoodies"/>
+	<addCategory
+		id="JTimeChooser_0.1.0_1540974338059"
+		name="JTimeChooser_0.1.0"
+		description="Container with import elements from /home/harshith/Downloads/JTimeChooser_0.1.0.jar"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo_1540974338059"
+		name="JTimeChooserDemo"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		category="JTimeChooser_0.1.0_1540974338059"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1_1540974338059"
+		name="1"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		category="JTimeChooser_0.1.0_1540974338059"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.JTimeChooser_1540974338059"
+		name="JTimeChooser"
+		description="Custom component: lu.tudor.santec.jtimechooser.JTimeChooser"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.JTimeChooser"
+		category="JTimeChooser_0.1.0_1540974338059"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedEvent_1540974338059"
+		name="TimeChangedEvent"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		category="JTimeChooser_0.1.0_1540974338059"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedListener_1540974338059"
+		name="TimeChangedListener"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedListener"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedListener"
+		category="JTimeChooser_0.1.0_1540974338059"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserHandler_1540974338059"
+		name="TimeChooserHandler"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		category="JTimeChooser_0.1.0_1540974338059"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserModel_1540974338059"
+		name="TimeChooserModel"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserModel"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserModel"
+		category="JTimeChooser_0.1.0_1540974338059"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeUnit_1540974338059"
+		name="TimeUnit"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeUnit"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeUnit"
+		category="JTimeChooser_0.1.0_1540974338059"/>
+	<removeCategory
+		id="JTimeChooser_0.1.0_1540973854953"/>
+	<removeCategory
+		id="JTimeChooser_0.1.0_1540974338059"/>
+	<addCategory
+		id="category_1540974542459"
+		name="Custom"
+		description="Container for custom components"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="custom_1540974542458"
+		name="Timer"
+		description="Creates java.util.Timer component."
+		visible="true"
+		class="java.util.Timer"
+		category="category_1540974542459"/>
+	<removeEntry
+		id="custom_1540974542458"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo_1540974675743"
+		name="JTimeChooserDemo"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo"
+		category="category_1540974542459"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1_1540974675743"
+		name="1"
+		description="Custom component: lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.demo.JTimeChooserDemo$1"
+		category="category_1540974542459"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.JTimeChooser_1540974675743"
+		name="JTimeChooser"
+		description="Custom component: lu.tudor.santec.jtimechooser.JTimeChooser"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.JTimeChooser"
+		category="category_1540974542459"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedEvent_1540974675743"
+		name="TimeChangedEvent"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedEvent"
+		category="category_1540974542459"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChangedListener_1540974675743"
+		name="TimeChangedListener"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChangedListener"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChangedListener"
+		category="category_1540974542459"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserHandler_1540974675743"
+		name="TimeChooserHandler"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserHandler"
+		category="category_1540974542459"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeChooserModel_1540974675743"
+		name="TimeChooserModel"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeChooserModel"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeChooserModel"
+		category="category_1540974542459"/>
+	<addComponent
+		id="lu.tudor.santec.jtimechooser.TimeUnit_1540974675743"
+		name="TimeUnit"
+		description="Custom component: lu.tudor.santec.jtimechooser.TimeUnit"
+		visible="true"
+		class="lu.tudor.santec.jtimechooser.TimeUnit"
+		category="category_1540974542459"/>
+	<addCategory
+		id="jcalendar-1.4_1540998382896"
+		name="jcalendar-1.4"
+		description="Container with import elements from /home/harshith/Downloads/jcalendar-1.4.jar"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="com.toedter.calendar.JDayChooser_1540998382896"
+		name="JDayChooser"
+		description="Custom component: com.toedter.calendar.JDayChooser"
+		visible="true"
+		class="com.toedter.calendar.JDayChooser"
+		category="jcalendar-1.4_1540998382896"/>
+	<addComponent
+		id="com.toedter.calendar.JMonthChooser_1540998382896"
+		name="JMonthChooser"
+		description="Custom component: com.toedter.calendar.JMonthChooser"
+		visible="true"
+		class="com.toedter.calendar.JMonthChooser"
+		category="jcalendar-1.4_1540998382896"/>
+	<addComponent
+		id="com.toedter.components.JLocaleChooser_1540998382896"
+		name="JLocaleChooser"
+		description="Custom component: com.toedter.components.JLocaleChooser"
+		visible="true"
+		class="com.toedter.components.JLocaleChooser"
+		category="jcalendar-1.4_1540998382896"/>
+	<addComponent
+		id="com.toedter.calendar.JCalendar_1540998382896"
+		name="JCalendar"
+		description="Custom component: com.toedter.calendar.JCalendar"
+		visible="true"
+		class="com.toedter.calendar.JCalendar"
+		category="jcalendar-1.4_1540998382896"/>
+	<addComponent
+		id="com.toedter.calendar.JDateChooser_1540998382896"
+		name="JDateChooser"
+		description="Custom component: com.toedter.calendar.JDateChooser"
+		visible="true"
+		class="com.toedter.calendar.JDateChooser"
+		category="jcalendar-1.4_1540998382896"/>
+	<addComponent
+		id="com.toedter.components.JSpinField_1540998382896"
+		name="JSpinField"
+		description="Custom component: com.toedter.components.JSpinField"
+		visible="true"
+		class="com.toedter.components.JSpinField"
+		category="jcalendar-1.4_1540998382896"/>
+	<addComponent
+		id="com.toedter.calendar.JYearChooser_1540998382896"
+		name="JYearChooser"
+		description="Custom component: com.toedter.calendar.JYearChooser"
+		visible="true"
+		class="com.toedter.calendar.JYearChooser"
+		category="jcalendar-1.4_1540998382896"/>
+	<removeCategory
+		id="jcalendar-1.4_1540998382896"/>
+	<addComponent
+		id="com.toedter.calendar.JDayChooser_1540999188238"
+		name="JDayChooser"
+		description="Custom component: com.toedter.calendar.JDayChooser"
+		visible="true"
+		class="com.toedter.calendar.JDayChooser"
+		category="category_1540974542459"/>
+	<addComponent
+		id="com.toedter.calendar.JMonthChooser_1540999188238"
+		name="JMonthChooser"
+		description="Custom component: com.toedter.calendar.JMonthChooser"
+		visible="true"
+		class="com.toedter.calendar.JMonthChooser"
+		category="category_1540974542459"/>
+	<addComponent
+		id="com.toedter.components.JLocaleChooser_1540999188238"
+		name="JLocaleChooser"
+		description="Custom component: com.toedter.components.JLocaleChooser"
+		visible="true"
+		class="com.toedter.components.JLocaleChooser"
+		category="category_1540974542459"/>
+	<addComponent
+		id="com.toedter.calendar.JCalendar_1540999188238"
+		name="JCalendar"
+		description="Custom component: com.toedter.calendar.JCalendar"
+		visible="true"
+		class="com.toedter.calendar.JCalendar"
+		category="category_1540974542459"/>
+	<addComponent
+		id="com.toedter.calendar.JDateChooser_1540999188238"
+		name="JDateChooser"
+		description="Custom component: com.toedter.calendar.JDateChooser"
+		visible="true"
+		class="com.toedter.calendar.JDateChooser"
+		category="category_1540974542459"/>
+	<addComponent
+		id="com.toedter.components.JSpinField_1540999188238"
+		name="JSpinField"
+		description="Custom component: com.toedter.components.JSpinField"
+		visible="true"
+		class="com.toedter.components.JSpinField"
+		category="category_1540974542459"/>
+	<addComponent
+		id="com.toedter.calendar.JYearChooser_1540999188238"
+		name="JYearChooser"
+		description="Custom component: com.toedter.calendar.JYearChooser"
+		visible="true"
+		class="com.toedter.calendar.JYearChooser"
+		category="category_1540974542459"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.layouts javax.swing.GroupLayout"
+		category="org.eclipse.wb.swing.components"
+		nextEntry="org.eclipse.wb.swing.components javax.swing.JList"/>
+</commands>

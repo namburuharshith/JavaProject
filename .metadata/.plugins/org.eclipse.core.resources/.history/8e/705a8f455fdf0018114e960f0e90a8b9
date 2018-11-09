@@ -1,0 +1,14 @@
+package Common;
+
+public class SinupData {
+
+	Sinup s = new Sinup();
+	String usr =  s.usrname.getText();
+	char[] pass = s.passwordField.getPassword();
+	char[] conf = s.passwordField_1.getPassword();
+	public static void main(String[] args) {
+
+		
+	}
+	
+}

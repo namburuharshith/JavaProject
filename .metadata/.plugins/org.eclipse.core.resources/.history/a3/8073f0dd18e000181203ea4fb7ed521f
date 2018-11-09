@@ -1,0 +1,9 @@
+package Common;
+
+public class MembershipData{
+
+	public void insertData(String name,String number,String id) {
+		
+	}
+}
+

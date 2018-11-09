@@ -1,0 +1,8 @@
+1541506088637	Rename package 'Resources'
+1541535826700	Delete element
+1541622186780	Delete element
+1541674694278	Encapsulate field 'name'
+1541674700823	Encapsulate field 'reg'
+1541674709243	Encapsulate field 'ride'
+1541674715185	Encapsulate field 'time'
+1541726277564	Encapsulate field 'slot'

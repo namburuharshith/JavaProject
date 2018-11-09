@@ -1,0 +1,37 @@
+package Common;
+
+import java.sql.*;
+
+public class LogInData {
+
+	static String n;
+	static String p;
+	String usr = "sai";
+	
+	public void compare() {
+		
+		String select = "SELECT password FROM Sinup WHERE name='"+usr+"';";
+		try {
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Javaproject","namburuharshith","Alivelu@735");
+		    Statement st = con.createStatement();
+		    
+		    //int count=st.executeUpdate(insert);
+		     ResultSet rs = st.executeQuery(select);
+			 if(rs.next()) {
+				 //s n = rs.getString("name");
+				 System.out.println(rs.getString("password"));
+				 
+				 
+			 }
+		    }catch(Exception e) {
+				System.out.println(e);
+			}
+		
+	}
+	
+	public static void main(String[] args) {
+		LogInData d = new LogInData();
+		d.compare();
+		//System.out.println(n+""+p);
+	}
+}

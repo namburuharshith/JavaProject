@@ -1,0 +1,8 @@
+package Common;
+
+import java.sql.*;
+
+public class NewBookingData {
+
+	
+}

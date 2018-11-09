@@ -1,0 +1,50 @@
+package Common;
+
+import java.sql.*;
+
+public class NewBookingData {
+
+   public static void insert(String cus,String reg,String dt,String rd,String tg) {
+		String m = "NO"; 
+	    String insert = "INSERT INTO Booking(name,reg,date,ride,insurance,membership) VALUES ('"+cus+"','"+reg+"','"+dt+"','"+rd+"','"+tg+"','"+m+"');";
+		try {
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Javaproject","namburuharshith","Alivelu@735");
+	    Statement st = con.createStatement();
+	    
+	    int count=st.executeUpdate(insert);
+	    // ResultSet rs = st.executeQuery(insert);
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+   }
+
+   public void member(String id,String date) {
+	
+	   String m = "YES";
+	   
+	   String p = "";
+		String select = "SELECT password FROM Sinup WHERE name='"+usr+"';";
+		try {
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Javaproject","namburuharshith","Alivelu@735");
+		    Statement st = con.createStatement();
+		    ResultSet rs = st.executeQuery(select);
+			if(rs.next()) {
+			   p = rs.getString("password");		 
+			}
+		    }catch(Exception e) {
+				System.out.println(e);
+			}
+		
+		
+	   String insert = "INSERT INTO Booking(id,date) VALUES ('"+id+"','"+date+"');";
+		try {
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Javaproject","namburuharshith","Alivelu@735");
+	    Statement st = con.createStatement();
+	    
+	    int count=st.executeUpdate(insert);
+	    // ResultSet rs = st.executeQuery(insert);
+		}catch(Exception e) {
+			System.out.println(e);
+		}  
+   }
+}

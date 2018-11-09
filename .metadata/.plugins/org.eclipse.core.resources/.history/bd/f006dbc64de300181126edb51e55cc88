@@ -1,0 +1,346 @@
+package Common;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JLayeredPane;
+import javax.swing.JTabbedPane;
+import javax.swing.JLabel;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.JTextField;
+import lu.tudor.santec.jtimechooser.JTimeChooser;
+import com.toedter.calendar.JDateChooser;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JPasswordField;
+
+public class Sinup extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField usrname;
+	private JPasswordField passwordField;
+	
+	private JPasswordField pass;
+	private JTextField usr_nm;
+	private JTextField id;
+	private JTextField reg_num;
+	private JTextField ph_num;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Sinup frame = new Sinup();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Sinup() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 350);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		
+		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
+		GroupLayout gl_contentPane = new GroupLayout(contentPane);
+		gl_contentPane.setHorizontalGroup(
+			gl_contentPane.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_contentPane.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(tabbedPane, GroupLayout.PREFERRED_SIZE, 414, GroupLayout.PREFERRED_SIZE)
+					.addContainerGap(53, Short.MAX_VALUE))
+		);
+		gl_contentPane.setVerticalGroup(
+			gl_contentPane.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_contentPane.createSequentialGroup()
+					.addComponent(tabbedPane, GroupLayout.DEFAULT_SIZE, 248, Short.MAX_VALUE)
+					.addContainerGap())
+		);
+		
+		JPanel panel = new JPanel();
+		tabbedPane.addTab("Membership", null, panel, null);
+		
+		JLabel lblCustomerName = new JLabel("Customer Name");
+		
+		JLabel label_3 = new JLabel(":");
+		
+		usr_nm = new JTextField();
+		usr_nm.setColumns(10);
+		
+		JLabel lblCardId = new JLabel("Card ID");
+		
+		JLabel label_4 = new JLabel(":");
+		
+		id = new JTextField();
+		id.setColumns(10);
+		
+		JLabel lblLicenceNumber = new JLabel("Licence Number");
+		
+		JLabel label_5 = new JLabel(":");
+		
+		reg_num = new JTextField();
+		reg_num.setColumns(10);
+		
+		JLabel lblPhoneNumber = new JLabel("Phone Number");
+		
+		JLabel label_6 = new JLabel(":");
+		
+		ph_num = new JTextField();
+		ph_num.setColumns(10);
+		
+		JLabel lblDate = new JLabel("Date");
+		
+		JLabel label_7 = new JLabel(":");
+		
+		JDateChooser date = new JDateChooser();
+		
+		JButton btnConfirm_1 = new JButton("Cancel");
+		btnConfirm_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				LogIn n = new LogIn();
+				n.setVisible(true);
+				dispose();
+			}
+		});
+		
+		JLabel popup = new JLabel("");
+		
+		JButton btnConfirm_2 = new JButton("Confirm");
+		btnConfirm_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				String us = usr_nm.getText().toString();
+				String reg = reg_num.getText().toString();
+				Integer ph = Integer.parseInt(ph_num.getText().toString());
+				String i = id.getText().toString();
+				String dt = date.getDate().toString().substring(0,10);
+				if(us.isEmpty() || reg.isEmpty() || i.isEmpty() || dt.isEmpty()) {
+					popup.setText("Enter all the details required!!!");
+					popup.setVisible(true);
+				}else {
+				    MembershipData m = new MembershipData();
+					m.input(us, i, reg, ph, dt);        
+					LogIn n = new LogIn();
+					n.setVisible(true);
+					dispose();
+				}
+			}
+		});
+		
+		
+		GroupLayout gl_panel = new GroupLayout(panel);
+		gl_panel.setHorizontalGroup(
+			gl_panel.createParallelGroup(Alignment.TRAILING)
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_panel.createSequentialGroup()
+							.addGap(62)
+							.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+								.addGroup(gl_panel.createSequentialGroup()
+									.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+										.addComponent(lblCustomerName)
+										.addComponent(lblCardId))
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+										.addGroup(gl_panel.createSequentialGroup()
+											.addComponent(label_3)
+											.addPreferredGap(ComponentPlacement.UNRELATED)
+											.addComponent(usr_nm, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+										.addGroup(gl_panel.createSequentialGroup()
+											.addComponent(label_4)
+											.addPreferredGap(ComponentPlacement.UNRELATED)
+											.addComponent(id, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
+								.addGroup(gl_panel.createSequentialGroup()
+									.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+										.addComponent(lblLicenceNumber)
+										.addComponent(lblPhoneNumber)
+										.addComponent(lblDate))
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+										.addGroup(gl_panel.createSequentialGroup()
+											.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+												.addComponent(label_5)
+												.addComponent(label_6))
+											.addPreferredGap(ComponentPlacement.UNRELATED)
+											.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+												.addComponent(reg_num, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+												.addComponent(ph_num, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
+										.addGroup(gl_panel.createSequentialGroup()
+											.addComponent(label_7)
+											.addPreferredGap(ComponentPlacement.UNRELATED)
+											.addComponent(date, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))))
+						.addGroup(gl_panel.createSequentialGroup()
+							.addContainerGap()
+							.addComponent(popup)
+							.addPreferredGap(ComponentPlacement.RELATED, 140, Short.MAX_VALUE)
+							.addComponent(btnConfirm_2)
+							.addPreferredGap(ComponentPlacement.UNRELATED)
+							.addComponent(btnConfirm_1)))
+					.addContainerGap())
+		);
+		gl_panel.setVerticalGroup(
+			gl_panel.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_panel.createSequentialGroup()
+					.addGap(31)
+					.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblCustomerName)
+						.addComponent(label_3)
+						.addComponent(usr_nm, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(18)
+					.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblCardId)
+						.addComponent(label_4)
+						.addComponent(id, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(18)
+					.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblLicenceNumber)
+						.addComponent(label_5)
+						.addComponent(reg_num, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(18)
+					.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblPhoneNumber)
+						.addComponent(label_6)
+						.addComponent(ph_num, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(18)
+					.addGroup(gl_panel.createParallelGroup(Alignment.TRAILING)
+						.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+							.addComponent(label_7)
+							.addComponent(lblDate))
+						.addComponent(date, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addPreferredGap(ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+					.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+						.addComponent(btnConfirm_1)
+						.addComponent(btnConfirm_2)
+						.addComponent(popup))
+					.addContainerGap())
+		);
+		panel.setLayout(gl_panel);
+		
+		JPanel panel_1 = new JPanel();
+		tabbedPane.addTab("Staff", null, panel_1, null);
+		
+		JLabel lblUserName = new JLabel("User name");
+		
+		usrname = new JTextField();
+		usrname.setColumns(10);
+		
+		
+		JLabel lblPssword = new JLabel("Password");
+		
+		JLabel lblConfirmPassword = new JLabel("Confirm Password");
+		
+		passwordField = new JPasswordField();
+		
+		pass = new JPasswordField();
+		
+		JLabel confirm = new JLabel("Type correct password");
+		confirm.setVisible(false);
+		
+		JButton btnConfirm = new JButton("Confirm");
+		btnConfirm.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				String u = usrname.getText().toString();
+				String p = pass.getText().toString();
+				String p1 = passwordField.getText().toString();
+				if(u.isEmpty() || p.isEmpty() || p1.isEmpty()) {
+					confirm.setText("Enter all the details required!!!");
+					confirm.setVisible(true);
+				}else {
+					    if(p.equals(p1)) {
+					    	SinupData sd = new SinupData();
+						    sd.insert(u,p);
+							LogIn l = new LogIn();
+							l.setVisible(true);
+							dispose();
+						    }else {
+						    confirm.setText("Enter correct password");	
+						   	confirm.setVisible(true);
+						    }
+				}
+			}
+		});
+		
+		JLabel label_1 = new JLabel(":");
+		
+		JLabel label = new JLabel(":");
+		
+		JLabel label_2 = new JLabel(":");
+		GroupLayout gl_panel_1 = new GroupLayout(panel_1);
+		gl_panel_1.setHorizontalGroup(
+			gl_panel_1.createParallelGroup(Alignment.TRAILING)
+				.addGroup(gl_panel_1.createSequentialGroup()
+					.addContainerGap(279, Short.MAX_VALUE)
+					.addComponent(btnConfirm)
+					.addGap(95))
+				.addGroup(gl_panel_1.createSequentialGroup()
+					.addGroup(gl_panel_1.createParallelGroup(Alignment.TRAILING, false)
+						.addGroup(Alignment.LEADING, gl_panel_1.createSequentialGroup()
+							.addGap(110)
+							.addComponent(confirm, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+						.addGroup(gl_panel_1.createSequentialGroup()
+							.addGap(44)
+							.addGroup(gl_panel_1.createParallelGroup(Alignment.TRAILING)
+								.addComponent(lblPssword)
+								.addComponent(lblConfirmPassword)
+								.addComponent(lblUserName))
+							.addPreferredGap(ComponentPlacement.UNRELATED)
+							.addGroup(gl_panel_1.createParallelGroup(Alignment.LEADING)
+								.addGroup(gl_panel_1.createSequentialGroup()
+									.addComponent(label_2, GroupLayout.PREFERRED_SIZE, 5, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(passwordField, 124, 124, 124))
+								.addGroup(gl_panel_1.createSequentialGroup()
+									.addComponent(label, GroupLayout.PREFERRED_SIZE, 5, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(usrname, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+								.addGroup(gl_panel_1.createSequentialGroup()
+									.addComponent(label_1, GroupLayout.PREFERRED_SIZE, 5, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(pass, 124, 124, 124)))))
+					.addGap(136))
+		);
+		gl_panel_1.setVerticalGroup(
+			gl_panel_1.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_panel_1.createSequentialGroup()
+					.addGap(75)
+					.addGroup(gl_panel_1.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblUserName)
+						.addComponent(label)
+						.addComponent(usrname, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(18)
+					.addGroup(gl_panel_1.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblPssword)
+						.addComponent(label_1)
+						.addComponent(pass, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(18)
+					.addGroup(gl_panel_1.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblConfirmPassword)
+						.addComponent(label_2)
+						.addComponent(passwordField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addPreferredGap(ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+					.addComponent(confirm)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(btnConfirm)
+					.addGap(26))
+		);
+		panel_1.setLayout(gl_panel_1);
+		contentPane.setLayout(gl_contentPane);
+		
+	}
+}

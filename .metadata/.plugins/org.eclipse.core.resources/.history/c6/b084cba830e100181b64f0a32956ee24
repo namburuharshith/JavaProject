@@ -1,0 +1,25 @@
+package Common;
+
+import java.sql.*;
+
+public class NewBookingData {
+
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		try{  
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Sample","namburuharshith","Alivelu@735");
+				    Statement stmt=con.createStatement();  
+				    ResultSet rs=stmt.executeQuery("select * from Sample");
+				    if(con!=null || !con.isClosed() )
+				      System.out.println("It is connected");
+				    else 
+				      System.out.println("nahh");
+	}catch(Exception e) {
+		
+	}
+		}
+}

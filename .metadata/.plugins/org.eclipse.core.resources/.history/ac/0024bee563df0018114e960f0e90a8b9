@@ -1,0 +1,24 @@
+package Common;
+
+import java.sql.*;
+
+public class SinupData {
+
+	public static void main(String[] args) {
+		
+		Sinup s = new Sinup();
+		String usr =  s.usrname.getText();
+		char[] pass = s.passwordField.getPassword();
+		char[] conf = s.passwordField_1.getPassword();
+		
+		String insert = "INSERT INTO Sinup(name,password) VALUES ("+"'"+usr+"'"+","+"'"+pass+"'"+")"+";";
+		try {
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Javaproject","namburuharshith","Alivelu@735");
+	    Statement st = con.createStatement();
+	    st.execute(insert);
+	    // ResultSet rs = st.executeQuery(insert);
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+	}
+}

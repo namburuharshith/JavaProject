@@ -1,0 +1,10 @@
+package Common;
+
+public class NewThread extends Thread {
+
+}
+
+
+
+	
+

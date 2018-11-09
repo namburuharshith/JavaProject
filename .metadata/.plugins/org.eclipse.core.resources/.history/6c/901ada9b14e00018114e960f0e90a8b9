@@ -1,0 +1,158 @@
+package Common;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JLabel;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class LogIn extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField usern;
+	private JTextField passw;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					LogIn frame = new LogIn();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public LogIn() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		
+		JLabel lblLogIn = new JLabel("LOG IN");
+		
+		JLabel lblUsername = new JLabel("Username");
+		
+		JLabel label = new JLabel(":");
+		
+		JLabel lblPassword = new JLabel("Password");
+		
+		JLabel label_1 = new JLabel(":");
+		
+		usern = new JTextField();
+		usern.setColumns(10);
+		
+		passw = new JTextField();
+		passw.setColumns(10);
+		
+		JLabel popup = new JLabel("For the recomended Staff  members only!!!!");
+		
+		JButton btnLogin = new JButton("login");
+		btnLogin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				String u = usern.getText().toString();
+			    String p = passw.getText().toString();
+				if(u.isEmpty()|| p.isEmpty()) {
+			       popup.setText("Enter all the creditionals");
+		        }    	
+			    else {
+			    	LogInData l = new LogInData();
+			    	String c = l.compare(u);
+			    	if(p.equals(c)) {
+				    Home h = new Home();
+			        h.setVisible(true);
+			        dispose();
+			        }else {
+			        	
+			        }
+			    }
+			}
+		});
+		
+		JButton btnSinup = new JButton("SignIn");
+		btnSinup.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			   Sinup s = new Sinup();
+			   s.setVisible(true);
+			   dispose();
+			}
+		});
+		
+		
+		GroupLayout gl_contentPane = new GroupLayout(contentPane);
+		gl_contentPane.setHorizontalGroup(
+			gl_contentPane.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_contentPane.createSequentialGroup()
+					.addGap(120)
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_contentPane.createSequentialGroup()
+							.addComponent(lblPassword)
+							.addGap(18)
+							.addComponent(label_1)
+							.addPreferredGap(ComponentPlacement.UNRELATED)
+							.addComponent(passw, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+						.addGroup(gl_contentPane.createSequentialGroup()
+							.addComponent(lblUsername)
+							.addPreferredGap(ComponentPlacement.UNRELATED)
+							.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
+								.addComponent(lblLogIn)
+								.addGroup(gl_contentPane.createSequentialGroup()
+									.addComponent(label)
+									.addGap(18)
+									.addComponent(usern, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))))
+					.addContainerGap(90, Short.MAX_VALUE))
+				.addGroup(Alignment.TRAILING, gl_contentPane.createSequentialGroup()
+					.addContainerGap(13, Short.MAX_VALUE)
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.TRAILING)
+						.addGroup(gl_contentPane.createSequentialGroup()
+							.addComponent(popup)
+							.addPreferredGap(ComponentPlacement.UNRELATED)
+							.addComponent(btnSinup)
+							.addGap(24))
+						.addComponent(btnLogin))
+					.addGap(27))
+		);
+		gl_contentPane.setVerticalGroup(
+			gl_contentPane.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_contentPane.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(lblLogIn)
+					.addGap(58)
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblUsername)
+						.addComponent(label)
+						.addComponent(usern, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(18)
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblPassword)
+						.addComponent(label_1)
+						.addComponent(passw, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(18)
+					.addComponent(btnLogin)
+					.addPreferredGap(ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
+						.addComponent(popup)
+						.addComponent(btnSinup))
+					.addContainerGap())
+		);
+		contentPane.setLayout(gl_contentPane);
+	}
+}

@@ -1,0 +1,105 @@
+package Common;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+
+public class Details extends JFrame {
+
+	private JPanel contentPane;
+	private JTable table;
+	private String cuss[][];
+    private ArrayList<Customer> arr = new ArrayList<Customer>();
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Details frame = new Details();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Details() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		GroupLayout gl_contentPane = new GroupLayout(contentPane);
+		gl_contentPane.setHorizontalGroup(
+			gl_contentPane.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_contentPane.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(scrollPane, GroupLayout.DEFAULT_SIZE, 416, Short.MAX_VALUE)
+					.addContainerGap())
+		);
+		gl_contentPane.setVerticalGroup(
+			gl_contentPane.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_contentPane.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(scrollPane, GroupLayout.DEFAULT_SIZE, 236, Short.MAX_VALUE)
+					.addContainerGap())
+		);
+		select();
+		scrollPane.setViewportView(table);
+		contentPane.setLayout(gl_contentPane);
+		
+	}
+	
+	public void select() {
+	cuss = new String[arr.size()][4];	
+	int i = 0;
+	String select = "SELECT name,reg,ride,time,slot FROM Booking;";
+	try {
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Javaproject","namburuharshith","Alivelu@735");
+	    Statement st = con.createStatement();
+	    ResultSet rs = st.executeQuery(select);
+		while(rs.next()) {
+		   arr.add(new Customer(rs.getString("name"),rs.getString("reg"),rs.getString("time"),rs.getString("slot")));		 
+		}
+	    }catch(Exception e) {
+			System.out.println(e);
+		}
+	cuss[1][1] = "sai";
+	System.out.println(cuss[0][0]);
+	   for(Customer obj:arr) {
+		   
+		  cuss[0][0] = obj.getName();
+		   System.out.println(obj.getName());
+		   cuss[i][1] = obj.getReg();
+		   cuss[i][2] = obj.getTime();
+		   cuss[i][3] = obj.getSlot();
+		   System.out.println(i);
+		   i++;
+		   System.out.println(i);
+		   
+	   }
+	   String col[] = {"name","reg","time","slot"};
+	   table = new JTable(cuss,col); 
+	}
+}

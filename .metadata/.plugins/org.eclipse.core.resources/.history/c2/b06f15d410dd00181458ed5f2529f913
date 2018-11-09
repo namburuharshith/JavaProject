@@ -1,0 +1,14 @@
+package Common;
+
+import java.sql.*;
+
+public class jdbcTest {
+
+	public void static main(String[] args) {
+	try {
+	     Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Sample","namburuharshith","Alivelu@735")  	
+  ;   	}catch{
+		
+     	}
+	}
+}

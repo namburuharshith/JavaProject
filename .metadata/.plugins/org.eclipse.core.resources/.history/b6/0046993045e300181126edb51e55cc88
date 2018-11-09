@@ -1,0 +1,22 @@
+package Common;
+
+public class Customer {
+
+	private String name;
+
+	private String reg;
+
+	private String ride;
+
+	private String time;
+
+	private String slot;
+	
+	Customer(String n,String r,String t,String s){
+		slot = s;
+		name = n;
+		reg = r;
+		time = t;
+	}
+	
+}

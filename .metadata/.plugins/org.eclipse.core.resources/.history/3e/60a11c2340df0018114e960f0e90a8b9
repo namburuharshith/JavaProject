@@ -1,0 +1,12 @@
+package Common;
+
+public class SinupData {
+
+	public static void main(String[] args) {
+
+		Sinup s = new Sinup();
+		String usr =  s.usrname.getText();
+		System.out.println(usr);
+	}
+	
+}

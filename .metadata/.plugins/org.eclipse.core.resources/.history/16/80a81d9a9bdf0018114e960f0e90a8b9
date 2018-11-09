@@ -1,0 +1,22 @@
+package Common;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class LogInData {
+
+	public void compare() {
+		
+		String select = "SELECT ('name','password')FROM Sinup";
+		try {
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Javaproject","namburuharshith","Alivelu@735");
+		    Statement st = con.createStatement();
+		    
+		    //int count=st.executeUpdate(insert);
+		     ResultSet rs = st.executeQuery(select);
+			}catch(Exception e) {
+				System.out.println(e);
+			}
+	}
+}
